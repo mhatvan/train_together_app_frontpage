@@ -44,9 +44,10 @@ var SampleApp = function() {
 
         //  Local cache for static content.
         self.zcache['index.html'] = fs.readFileSync('./index.html');
-        self.zcache['index.html'] = fs.readFileSync('../css/bootstrap.min.css');
+        
+        /*self.zcache['index.html'] = fs.readFileSync('../css/bootstrap.min.css');
         self.zcache'index.html'] = fs.readFileSync('../css/style.css');
-        self.zcache['index.html'] = fs.readFileSync('../img/Android-app-store.png');
+        self.zcache['index.html'] = fs.readFileSync('../img/Android-app-store.png');*/
     };
 
 
